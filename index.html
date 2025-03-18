@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Learning</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.2.0/dist/full.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav id="nav"
+    class="fixed top-0 left-0 w-full bg-white shadow-md py-3 px-6 flex justify-between items-center border-b">
+    <div class="flex items-center space-x-2">
+      <span class="text-lg font-bold">English </span><img src="assets/logo.png" alt="Logo" class="h-8">জানালা
+    </div>
+    <div class="space-x-3 hidden md:flex">
+      <button onclick="scrollToSection('faq')" class="px-4 py-2 border rounded text-blue-600">FAQ</button>
+      <button onclick="scrollToSection('vocab')" class="px-4 py-2 border rounded text-blue-600">Learn</button>
+      <button onclick="logout()" class="px-4 py-2 border rounded text-red-600">Logout</button>
+    </div>
+    <button id="menuToggle" class="md:hidden text-2xl">
+      <i class="fa fa-bars"></i>
+    </button>
+  </nav>
+
+</body>
+
+</html>
